@@ -1146,22 +1146,22 @@
 
     <div class="b2b-grid">
       <div class="b2b-card">
-        <div class="b2b-icon">&#x1F3D7;&#xFE0F;</div>
+        <div class="b2b-icon"><i class="fas fa-hard-hat"></i></div>
         <h3>Building Permit Tracking</h3>
         <p>We monitor every building permit, planning application, and development approval in your service area. When someone files for a major renovation or new construction, you are the first contractor they hear from.</p>
       </div>
       <div class="b2b-card">
-        <div class="b2b-icon">&#x1F4CB;</div>
+        <div class="b2b-icon"><i class="fas fa-clipboard-list"></i></div>
         <h3>Business Registration Alerts</h3>
         <p>New businesses mean new HVAC installs, electrical work, plumbing, and landscaping contracts. We scrape new business registrations daily and deliver them to your CRM before your competitors even know they exist.</p>
       </div>
       <div class="b2b-card">
-        <div class="b2b-icon">&#x1F50D;</div>
+        <div class="b2b-icon"><i class="fas fa-search"></i></div>
         <h3>Decision-Maker Contact Enrichment</h3>
         <p>Raw permit data is useless without contacts. We enrich every lead with verified phone numbers, email addresses, and company profiles so your sales team can start dialing immediately.</p>
       </div>
       <div class="b2b-card">
-        <div class="b2b-icon">&#x1F4E6;</div>
+        <div class="b2b-icon"><i class="fas fa-box"></i></div>
         <h3>Weekly B2B Lead Lists</h3>
         <p>No dashboards to check, no portals to log into. We send you a clean, prioritized list of B2B leads every Monday morning. CSV or direct CRM integration  -  your choice.</p>
       </div>
