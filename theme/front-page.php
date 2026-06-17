@@ -694,6 +694,21 @@
       transition:transform 0.3s;
     }
     .portfolio-item-link:hover { transform:rotate(45deg); }
+    .portfolio-meta {
+      padding:16px 0 4px;
+    }
+    .portfolio-meta strong {
+      display:block;
+      font-family:"Space Grotesk",sans-serif;
+      font-size:16px;
+      font-weight:700;
+      color:#fff;
+      margin-bottom:2px;
+    }
+    .portfolio-meta span {
+      font-size:14px;
+      color:#888;
+    }
     .portfolio-footer {
       margin-top:50px;
       text-align:center;
