@@ -618,7 +618,7 @@
     .b2b-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; margin-bottom:60px; }
     .b2b-card { background:#1a1a1a; border:1px solid rgba(255,255,255,0.06); border-radius:16px; padding:36px 32px; transition:all 0.4s; }
     .b2b-card:hover { border-color:rgba(214,243,69,0.25); transform:translateY(-4px); }
-    .b2b-icon { font-size:32px; margin-bottom:16px; }
+    .b2b-icon { font-size:26px; margin-bottom:16px; color:#d6f345; }
     .b2b-card h3 { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:#fff; margin-bottom:10px; }
     .b2b-card p { font-size:15px; color:#b5b5b5; line-height:1.7; }
     .b2b-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-bottom:50px; }
@@ -1200,11 +1200,11 @@
       </div>
       <div class="tq-stats">
         <div class="tq-stat">
-          <h4>95+</h4>
+          <h4>55+</h4>
           <p>Jobs Won</p>
         </div>
         <div class="tq-stat">
-          <h4>12+</h4>
+          <h4>5+</h4>
           <p>Years in Trades</p>
         </div>
         <div class="tq-stat">
