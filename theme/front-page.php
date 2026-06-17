@@ -1347,6 +1347,36 @@
   </div>
 </section>
 
+<!-- ===== REVIEWS ===== -->
+<section class="reviews" id="reviews">
+  <div class="container">
+    <div class="reviews-header">
+      <span class="section-badge"> Testimonials </span>
+      <h2 class="section-title">The best reviews<br>from clients</h2>
+    </div>
+    <div class="reviews-slider" id="reviews-slider">
+      <!-- JS fills this -->
+    </div>
+    <div class="reviews-nav">
+      <button id="rev-prev">&#x2190;</button>
+      <button id="rev-next">&#x2192;</button>
+    </div>
+  </div>
+</section>
+
+<!-- ===== TEAM ===== -->
+<section class="team" id="team">
+  <div class="container">
+    <div class="team-header">
+      <span class="section-badge"> Our team </span>
+      <h2 class="section-title">Meet our talented<br>professionals</h2>
+    </div>
+    <div class="team-grid" id="team-grid">
+      <!-- JS fills this -->
+    </div>
+  </div>
+</section>
+
 <!-- ===== FAQ ===== -->
 <section class="faq" id="faq">
   <div class="container">
