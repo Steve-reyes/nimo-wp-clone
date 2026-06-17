@@ -61,7 +61,9 @@
       cursor:pointer;
       transition:all 0.3s ease;
     }
-    .nm-pr-btn-1:hover { opacity:0.85; }
+    .nm-pr-btn-1:hover { background:#333; color:#fff; }
+    .nm-pr-btn-1.lime-bg:hover { opacity:0.9; }
+    .nm-pr-btn-1.white-border:hover { border-color:#d6f345; color:#d6f345; }
     .nm-pr-btn-1 .wa_magnetic_btn_2_elm {
       display:inline-flex;
       align-items:center;
