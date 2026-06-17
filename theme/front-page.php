@@ -1208,8 +1208,8 @@
           <p>Years in Trades</p>
         </div>
         <div class="tq-stat">
-          <h4>22+</h4>
-          <p>5-Star Reviews</p>
+          <h4>100+</h4>
+          <p>Cities Covered</p>
         </div>
       </div>
     </div>
