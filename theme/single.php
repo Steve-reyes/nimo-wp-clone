@@ -255,7 +255,7 @@
   <?php if (have_posts()) : while (have_posts()) : the_post(); ?>
   <section class="single-post-wrap">
     <div class="container">
-      <a href="<?php echo home_url('/blog/'); ?>" class="back-link">&#8592; Back to Insights</a>
+      <a href="<?php echo home_url('/#portfolio'); ?>" class="back-link">&#8592; Back to Insights</a>
 
       <div class="post-header">
         <h1 class="post-title"><?php the_title(); ?></h1>
