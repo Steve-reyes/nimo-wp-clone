@@ -606,6 +606,25 @@
       margin-top:4px;
     }
 
+    /* ===== B2B SECTION ===== */
+    .b2b-section { padding:100px 0; background:#0f0f0f; position:relative; overflow:hidden; }
+    .b2b-section::before { content:''; position:absolute; top:-50%; right:-20%; width:600px; height:600px; background:radial-gradient(circle,rgba(214,243,69,0.04) 0%,transparent 70%); pointer-events:none; }
+    .b2b-header { text-align:center; margin-bottom:60px; }
+    .b2b-badge { display:inline-block; background:rgba(214,243,69,0.12); color:#d6f345; font-size:12px; font-weight:600; letter-spacing:2px; padding:6px 18px; border-radius:100px; margin-bottom:20px; }
+    .b2b-subtitle { max-width:680px; margin:20px auto 0; font-size:17px; color:#b5b5b5; line-height:1.7; }
+    .b2b-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:24px; margin-bottom:60px; }
+    .b2b-card { background:#1a1a1a; border:1px solid rgba(255,255,255,0.06); border-radius:16px; padding:36px 32px; transition:all 0.4s; }
+    .b2b-card:hover { border-color:rgba(214,243,69,0.25); transform:translateY(-4px); }
+    .b2b-icon { font-size:32px; margin-bottom:16px; }
+    .b2b-card h3 { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:#fff; margin-bottom:10px; }
+    .b2b-card p { font-size:15px; color:#b5b5b5; line-height:1.7; }
+    .b2b-stats { display:grid; grid-template-columns:repeat(3,1fr); gap:20px; margin-bottom:50px; }
+    .b2b-stat { text-align:center; background:rgba(214,243,69,0.04); border:1px solid rgba(214,243,69,0.08); border-radius:16px; padding:32px 20px; }
+    .b2b-stat-num { display:block; font-family:'Space Grotesk',sans-serif; font-size:42px; font-weight:700; color:#d6f345; margin-bottom:6px; }
+    .b2b-stat-label { font-size:14px; color:#888; line-height:1.5; }
+    .b2b-cta { text-align:center; }
+    .b2b-cta .nm-pr-btn-1 { display:inline-flex; align-items:center; gap:8px; }
+
     /* ===== PORTFOLIO ===== */
     .portfolio {
       padding:100px 0;
@@ -1129,6 +1148,62 @@
           <img id="svc-img" src="https://picsum.photos/seed/nimo-brand/500/360" alt="Service">
         </div>
       </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== B2B & COMMERCIAL LEAD GEN SECTION ===== -->
+<section class="b2b-section" id="b2b-leads">
+  <div class="container">
+    <div class="b2b-header">
+      <span class="b2b-badge">B2B &amp; COMMERCIAL</span>
+      <h2 class="section-title">Commercial Lead Generation<br><span style="color:#d6f345">for Service Contractors</span></h2>
+      <p class="b2b-subtitle">Residential leads are great. But one commercial contract can be worth 20 residential jobs. We help you find, qualify, and close high-value B2B opportunities.</p>
+    </div>
+
+    <div class="b2b-grid">
+      <div class="b2b-card">
+        <div class="b2b-icon">&#x1F3D7;&#xFE0F;</div>
+        <h3>Building Permit Tracking</h3>
+        <p>We monitor every building permit, planning application, and development approval in your service area. When someone files for a major renovation or new construction, you are the first contractor they hear from.</p>
+      </div>
+      <div class="b2b-card">
+        <div class="b2b-icon">&#x1F4CB;</div>
+        <h3>Business Registration Alerts</h3>
+        <p>New businesses mean new HVAC installs, electrical work, plumbing, and landscaping contracts. We scrape new business registrations daily and deliver them to your CRM before your competitors even know they exist.</p>
+      </div>
+      <div class="b2b-card">
+        <div class="b2b-icon">&#x1F50D;</div>
+        <h3>Decision-Maker Contact Enrichment</h3>
+        <p>Raw permit data is useless without contacts. We enrich every lead with verified phone numbers, email addresses, and company profiles so your sales team can start dialing immediately.</p>
+      </div>
+      <div class="b2b-card">
+        <div class="b2b-icon">&#x1F4E6;</div>
+        <h3>Weekly B2B Lead Lists</h3>
+        <p>No dashboards to check, no portals to log into. We send you a clean, prioritized list of B2B leads every Monday morning. CSV or direct CRM integration  -  your choice.</p>
+      </div>
+    </div>
+
+    <div class="b2b-stats">
+      <div class="b2b-stat">
+        <span class="b2b-stat-num">3-5x</span>
+        <span class="b2b-stat-label">Higher average contract value vs. residential</span>
+      </div>
+      <div class="b2b-stat">
+        <span class="b2b-stat-num">80%</span>
+        <span class="b2b-stat-label">Less competition on commercial projects</span>
+      </div>
+      <div class="b2b-stat">
+        <span class="b2b-stat-num">2,400+</span>
+        <span class="b2b-stat-label">Permits &amp; leads tracked monthly</span>
+      </div>
+    </div>
+
+    <div class="b2b-cta">
+      <a href="/contact-us/" class="nm-pr-btn-1">
+        Get Your First B2B Lead List Free
+        <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
+      </a>
     </div>
   </div>
 </section>
