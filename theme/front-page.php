@@ -1046,7 +1046,7 @@
   <div class="container">
     <div class="hero-grid">
       <div>
-        <div class="hero-badge"> Home Service Growth Agency </div>
+        <div class="hero-badge"> Service Growth Agency </div>
         <h1 class="hero-title">LeadZap</h1>
         <h2 class="hero-sub">More Leads. More Growth. Less Fluff.</h2>
         <p class="hero-text">We get your phone ringing with real leads  -  not vanity metrics. Lead generation from Google Maps and permits, SEO that puts you on page one, Google Ads that produce calls, and websites built to convert. No agency fluff. Just booked jobs.</p>
