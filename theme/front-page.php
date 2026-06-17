@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>LeadZap  -  Marketing for Contractors Who Actually Do the Work</title>
+  <title>LeadZap  -  Lead Generation & SEO for Home Service Contractors</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap" rel="stylesheet">
@@ -1024,8 +1024,8 @@
       <div>
         <div class="hero-badge"> Home Service Growth Agency </div>
         <h1 class="hero-title">LeadZap</h1>
-        <h2 class="hero-sub">Marketing for Contractors Who Actually Do the Work</h2>
-        <p class="hero-text">We are the agency HVAC, plumbing, electrical, roofing, and landscaping contractors trust to keep the phones ringing. SEO, Google Ads, and websites that book jobs  -  not just look nice on a laptop.</p>
+        <h2 class="hero-sub">More Leads. More Growth. Less Fluff.</h2>
+        <p class="hero-text">We get your phone ringing with real leads  -  not vanity metrics. Lead generation from Google Maps and permits, SEO that puts you on page one, Google Ads that produce calls, and websites built to convert. No agency fluff. Just booked jobs.</p>
         <div class="hero-actions">
           <button class="nm-pr-btn-1 lime-bg" onclick="alert('Book a Free Call')">
             <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
@@ -1072,12 +1072,12 @@
       <div class="about-card">
         <div class="about-card-icon">&#x1F3AF;</div>
         <h3>Our Mission</h3>
-        <p>Get service contractors ranking on page one and running ad campaigns that produce real leads  -  no bloated retainers, no agency nonsense.</p>
+        <p>We generate leads that actually close. Google Maps scraping, permit tracking, SEO rankings, Google Ads, and conversion websites  -  all tuned for contractors who need their pipeline full.</p>
       </div>
       <div class="about-card">
         <div class="about-card-icon">&#x1F4A1;</div>
         <h3>How We Do It</h3>
-        <p>Local SEO, Google Ads, review systems, and conversion websites  -  all tuned for HVAC, plumbing, electrical, roofing, and landscaping. You run the jobs. We keep the pipeline full.</p>
+        <p>Lead generation, SEO, Google Ads, review systems, and conversion websites  -  all engineered for HVAC, plumbing, electrical, roofing, and landscaping. You focus on the work. We fill the pipeline.</p>
       </div>
       <div class="about-card">
         <div class="about-card-icon">&#x1F91D;</div>
@@ -1093,7 +1093,7 @@
   <div class="container">
     <div class="services-header">
       <span class="section-badge"> What we do </span>
-      <h2 class="section-title">10 services to keep<br>your phone ringing</h2>
+      <h2 class="section-title">10 ways we drive<br>growth for your business</h2>
     </div>
     <div class="services-layout">
       <div class="services-tabs">
@@ -1276,7 +1276,7 @@
     <div class="footer-grid">
       <div class="footer-col">
         <h4>LeadZap</h4>
-        <p>We help HVAC, plumbing, electrical, and landscaping contractors get more leads through SEO, Google Ads, and conversion-focused websites. No fluff. Just booked jobs.</p>
+        <p>We generate qualified leads for HVAC, plumbing, electrical, and roofing contractors. Google Maps scraping, permit tracking, SEO, Google Ads, and websites built to convert. Your phone rings. Your business grows. No fluff.</p>
       </div>
       <div class="footer-col">
         <h4>About</h4>
@@ -1307,7 +1307,7 @@
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; 2025. All rights reserved. LeadZap  -  Marketing for Contractors Who Actually Do the Work.
+      &copy; 2025. All rights reserved. LeadZap  -  Lead Generation & Growth for Home Service Contractors.
     </div>
   </div>
 </footer>
