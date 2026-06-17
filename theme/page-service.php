@@ -158,6 +158,17 @@
     .wpcf7 form.sent .wpcf7-response-output { border-color:#27ae60; background:rgba(39,174,96,0.1); color:#27ae60; }
     .wpcf7-spinner { display:block; margin:16px auto; }
 
+    /* ===== SUCCESS OVERLAY ===== */
+    .leadzap-overlay { display:none; position:fixed; top:0; left:0; right:0; bottom:0; background:rgba(0,0,0,0.85); z-index:99999; align-items:center; justify-content:center; backdrop-filter:blur(8px); }
+    .leadzap-overlay.active { display:flex; }
+    .leadzap-modal { background:#1a1a1a; border:1px solid rgba(255,255,255,0.08); border-radius:24px; padding:48px 40px; max-width:460px; width:90%; text-align:center; animation:modalPop 0.3s ease; }
+    @keyframes modalPop { 0% { transform:scale(0.9); opacity:0; } 100% { transform:scale(1); opacity:1; } }
+    .leadzap-modal .check-icon { width:72px; height:72px; background:#d6f345; border-radius:50%; display:flex; align-items:center; justify-content:center; margin:0 auto 24px; font-size:36px; color:#171619; }
+    .leadzap-modal h3 { font-family:'Space Grotesk',sans-serif; font-size:26px; font-weight:700; color:#fff; margin-bottom:12px; }
+    .leadzap-modal p { font-size:15px; color:#b5b5b5; line-height:1.6; margin-bottom:28px; }
+    .leadzap-modal .modal-btn { background:#d6f345; color:#171619; padding:12px 32px; border:none; border-radius:100px; font-family:'Inter',sans-serif; font-size:15px; font-weight:600; cursor:pointer; transition:opacity 0.3s; }
+    .leadzap-modal .modal-btn:hover { opacity:0.85; }
+
     /* ===== CONTACT INFO GRID ===== */
     .contact-info-grid { display:grid; grid-template-columns:repeat(2,1fr); gap:20px; margin-top:50px; }
     .contact-info-card { background:#1a1a1a; border-radius:16px; padding:32px 28px; border:1px solid rgba(255,255,255,0.06); text-align:center; transition:all 0.4s; }
@@ -298,6 +309,46 @@
       });
     })();
   </script>
+
+  <!-- Success Overlay -->
+  <div id="leadzap-overlay" class="leadzap-overlay">
+    <div class="leadzap-modal">
+      <div class="check-icon">&#10003;</div>
+      <h3>Message Sent!</h3>
+      <p>Thanks for reaching out. One of our team members will get back to you within 24 hours.</p>
+      <button class="modal-btn" onclick="document.getElementById('leadzap-overlay').classList.remove('active')">Got it</button>
+    </div>
+  </div>
+
+  <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      var overlay = document.getElementById('leadzap-overlay');
+      if (!overlay) return;
+
+      // Listen for CF7 form submit events
+      document.querySelectorAll('.wpcf7-form').forEach(function(form) {
+        form.addEventListener('wpcf7submit', function(e) {
+          if (e.detail && e.detail.status === 'mail_sent') {
+            overlay.classList.add('active');
+          }
+        });
+      });
+
+      // Also catch the form submit success via mutation observer
+      // (fallback for when wpcf7submit event doesn't fire)
+      var observer = new MutationObserver(function() {
+        document.querySelectorAll('.wpcf7-form.sent').forEach(function(form) {
+          if (!form.dataset.leadzapShown) {
+            form.dataset.leadzapShown = '1';
+            overlay.classList.add('active');
+            setTimeout(function() { form.dataset.leadzapShown = ''; }, 5000);
+          }
+        });
+      });
+      observer.observe(document.body, { subtree: true, attributes: true, attributeFilter: ['class'] });
+    });
+  </script>
+
   <?php wp_footer(); ?>
 </body>
 </html>
