@@ -1112,7 +1112,7 @@
         <div class="services-content-wrap">
           <div>
             <h3 id="svc-title">Service Business SEO</h3>
-            <p id="svc-desc">Stop hiding on page 5. We get HVAC, plumbing, and electrical contractors on Google's first page  -  where customers actually find you.</p>
+            <p id="svc-desc">Stop hiding on page 5. We get HVAC, plumbing, electrical, roofing, and landscaping contractors on Google's first page  -  where customers actually find you.</p>
             <ul class="services-checklist" id="svc-checklist">
               <li><span class="check-star">&#x2605;</span> Industry-specific keyword research</li>
               <li><span class="check-star">&#x2605;</span> Google Business Profile takeover</li>
@@ -1276,7 +1276,7 @@
     <div class="footer-grid">
       <div class="footer-col">
         <h4>LeadZap</h4>
-        <p>We generate qualified leads for HVAC, plumbing, electrical, and roofing contractors. Google Maps scraping, permit tracking, SEO, Google Ads, and websites built to convert. Your phone rings. Your business grows. No fluff.</p>
+        <p>We generate qualified leads for HVAC, plumbing, electrical, roofing, and landscaping contractors. Google Maps scraping, permit tracking, SEO, Google Ads, and websites built to convert. Your phone rings. Your business grows. No fluff.</p>
       </div>
       <div class="footer-col">
         <h4>About</h4>
@@ -1318,7 +1318,7 @@
     const serviceData = [
       {
         title:'Service Business SEO',
-        desc:'Stop hiding on page 5. We put HVAC, plumbing, and electrical contractors on page one of Google  -  where homeowners actually find you. Local keywords, Maps rankings, and Google Local Service Ads that pull in calls.',
+        desc:'Stop hiding on page 5. We put HVAC, plumbing, electrical, roofing, and landscaping contractors on page one of Google  -  where homeowners actually find you. Local keywords, Maps rankings, and Google Local Service Ads that pull in calls.',
         checks:['Industry-specific keyword research','Google Business Profile takeover','Local Service Ads setup & management','Technical SEO for service websites'],
         img:'https://picsum.photos/seed/nimo-seo/500/360',
         url:'https://nimo-clone.212.227.153.56.sslip.io/service-business-seo/'
@@ -1481,7 +1481,7 @@
   // ===== FAQ =====
   (function(){
     const faqs = [
-      { q:'What does LeadZap do for home service businesses?', a:'We handle SEO, lead-gen websites, local search, social media, Google Ads, reputation management, email/SMS, and branding  -  built exclusively for HVAC, plumbing, electrical, landscaping, and home service companies.' },
+      { q:'What does LeadZap do for home service businesses?', a:'We handle SEO, lead-gen websites, local search, social media, Google Ads, reputation management, email/SMS, and branding  -  built exclusively for HVAC, plumbing, electrical, roofing, landscaping, and home service companies.' },
       { q:'How fast will I get more calls?', a:'Most contractors see a spike in calls within 4-8 weeks from local SEO alone. Full SEO results hit in 3-6 months. We send monthly lead reports so you never wonder where your traffic is coming from.' },
       { q:'How much does a service business website cost?', a:'Our lead-gen sites start at a flat, transparent rate. No hidden fees, no surprise charges. Reach out for a free quote tailored to your market size and service area.' },
       { q:'Can you handle multi-city service areas?', a:'Yes. We build location-specific pages and citation strategies that dominate every city you service. Whether you are a single truck or a 50-truck fleet, our approach scales with you.' },
