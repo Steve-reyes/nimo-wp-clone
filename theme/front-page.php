@@ -1200,7 +1200,7 @@
     </div>
 
     <div class="b2b-cta">
-      <a href="/contact-us/" class="nm-pr-btn-1">
+      <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
         Get Your First B2B Lead List Free
         <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
       </a>
