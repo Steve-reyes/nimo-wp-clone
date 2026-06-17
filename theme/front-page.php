@@ -709,6 +709,21 @@
       font-size:14px;
       color:#888;
     }
+        .portfolio-meta {
+      padding:16px 0 4px;
+    }
+    .portfolio-meta strong {
+      display:block;
+      font-family:"Space Grotesk",sans-serif;
+      font-size:16px;
+      font-weight:700;
+      color:#fff;
+      margin-bottom:2px;
+    }
+    .portfolio-meta span {
+      font-size:14px;
+      color:#888;
+    }
     .portfolio-footer {
       margin-top:50px;
       text-align:center;
@@ -1239,89 +1254,50 @@
         <span class="section-badge"> Our work </span>
         <h2 class="section-title">Projects that fill<br>service schedules</h2>
       </div>
-      <button class="nm-pr-btn-1 white-border" onclick="alert('View Portfolio')">
+      <a href="/case-studies/" class="nm-pr-btn-1 white-border">
         <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-        View Portfolio
-      </button>
+        View All Case Studies
+      </a>
     </div>
     <div class="portfolio-grid">
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port1.jpg" alt="Portfolio 1">
+        <img src="/wp-content/themes/nimo/img/leadzap/port1.jpg" alt="HVAC company case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">HVAC Website</span>
-          <span class="portfolio-item-link">&#x2197;</span>
+          <span class="portfolio-item-tag">HVAC Lead Gen</span>
+          <a href="/lead-generation/" class="portfolio-item-link">&#x2197;</a>
         </div>
+        <div class="portfolio-meta"><strong>Precision Air Flow</strong><span>3x monthly leads in 90 days</span></div>
       </div>
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port2.jpg" alt="Portfolio 2">
+        <img src="/wp-content/themes/nimo/img/leadzap/port2.jpg" alt="Roofing company case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">Plumbing SEO</span>
-          <span class="portfolio-item-link">&#x2197;</span>
+          <span class="portfolio-item-tag">Roofing Local SEO</span>
+          <a href="/local-search-optimization/" class="portfolio-item-link">&#x2197;</a>
         </div>
+        <div class="portfolio-meta"><strong>Summit Roofing Co</strong><span>#1 Google Maps rank in 6 weeks</span></div>
       </div>
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port3.jpg" alt="Portfolio 3">
+        <img src="/wp-content/themes/nimo/img/leadzap/port3.jpg" alt="Commercial contractor case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">Electrical Lead-Gen</span>
-          <span class="portfolio-item-link">&#x2197;</span>
+          <span class="portfolio-item-tag">Commercial B2B</span>
+          <a href="/b2b-commercial-lead-generation/" class="portfolio-item-link">&#x2197;</a>
         </div>
+        <div class="portfolio-meta"><strong>West Coast Electric</strong><span>$48k in commercial contracts secured</span></div>
       </div>
       <div class="portfolio-item">
-        <img src="/wp-content/themes/nimo/img/leadzap/port4.jpg" alt="Portfolio 4">
+        <img src="/wp-content/themes/nimo/img/leadzap/port4.jpg" alt="Plumbing company case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">Branding</span>
-          <span class="portfolio-item-link">&#x2197;</span>
+          <span class="portfolio-item-tag">Plumbing Google Ads</span>
+          <a href="/google-ads-ppc/" class="portfolio-item-link">&#x2197;</a>
         </div>
+        <div class="portfolio-meta"><strong>FlowMaster Plumbing</strong><span>12:1 ROAS on ad spend</span></div>
       </div>
     </div>
     <div class="portfolio-footer">
-      <button class="nm-pr-btn-1 lime-bg" onclick="alert('More Portfolio')">
+      <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
         <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-        More Portfolio
-      </button>
-    </div>
-  </div>
-</section>
-
-<!-- ===== REVIEWS ===== -->
-<section class="reviews" id="reviews">
-  <div class="container">
-    <div class="reviews-header">
-      <span class="section-badge"> Testimonials </span>
-      <h2 class="section-title">Hear from real<br>service business owners</h2>
-    </div>
-    <div class="reviews-slider" id="reviews-slider">
-      <!-- JS fills this -->
-    </div>
-    <div class="reviews-nav">
-      <button id="rev-prev">&#x2190;</button>
-      <button id="rev-next">&#x2192;</button>
-    </div>
-  </div>
-</section>
-
-<!-- ===== TEAM ===== -->
-<section class="team" id="team">
-  <div class="container">
-    <div class="team-header">
-      <span class="section-badge"> Our team </span>
-      <h2 class="section-title">The people behind<br>your next lead surge</h2>
-    </div>
-    <div class="team-grid" id="team-grid">
-      <!-- JS fills this -->
-    </div>
-  </div>
-</section>
-
-<!-- ===== FAQ ===== -->
-<section class="faq" id="faq">
-  <div class="container">
-    <div class="faq-header">
-      <span class="section-badge"> FAQ </span>
-      <h2 class="section-title">Got questions?<br>We've got answers.</h2>
-    </div>
-    <div class="faq-list" id="faq-list">
-      <!-- JS fills this -->
+        Get Results Like These
+      </a>
     </div>
   </div>
 </section>
