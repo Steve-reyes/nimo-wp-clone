@@ -1055,10 +1055,6 @@
             <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
             Book a Free Call
           </button>
-          <span class="hero-play-btn">
-            <span class="play-icon">&#x25B6;</span>
-            Read More
-          </span>
         </div>
       </div>
       <div class="hero-image-wrap">
