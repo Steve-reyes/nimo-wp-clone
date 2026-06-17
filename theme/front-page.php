@@ -1347,6 +1347,17 @@
   </div>
 </section>
 
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-header">
+      <span class="section-badge"> Questions? </span>
+      <h2 class="section-title">Frequently Asked<br>Questions</h2>
+    </div>
+    <div class="faq-list" id="faq-list"></div>
+  </div>
+</section>
+
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
   <div class="container">
