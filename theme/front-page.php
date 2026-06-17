@@ -474,34 +474,6 @@
       line-height:1.7;
     }
 
-    .about-stats {
-      display:grid;
-      grid-template-columns:repeat(4,1fr);
-      gap:20px;
-      margin:60px 0 40px;
-    }
-    .about-stat {
-      text-align:center;
-      background:rgba(214,243,69,0.04);
-      border:1px solid rgba(214,243,69,0.08);
-      border-radius:16px;
-      padding:28px 16px;
-    }
-    .about-stat-num {
-      display:block;
-      font-family:Space Grotesk,sans-serif;
-      font-size:36px;
-      font-weight:700;
-      color:#d6f345;
-      margin-bottom:4px;
-    }
-    .about-stat-label {
-      font-size:13px;
-      color:#888;
-      line-height:1.4;
-    }
-    .about-cta { text-align:center; margin-top:20px; }
-
     /* ===== SERVICES ===== */
     .services {
       padding:100px 0;
@@ -1022,7 +994,6 @@
       .hero-actions { justify-content:center; }
       .hero-image-wrap { display:none; }
       .about-grid { grid-template-columns:1fr 1fr; }
-    .about-stats { grid-template-columns:repeat(2,1fr); }
       .services-layout { grid-template-columns:1fr; }
       .services-content-wrap { grid-template-columns:1fr; }
       .reviews-slider { grid-template-columns:1fr 1fr; }
@@ -1035,7 +1006,6 @@
       .hamburger { display:flex; }
       .hero-title { font-size:clamp(44px,12vw,80px); }
       .about-grid { grid-template-columns:1fr; }
-    .about-stats { grid-template-columns:1fr 1fr; }
       .portfolio-grid { grid-template-columns:1fr; }
       .reviews-slider { grid-template-columns:1fr; }
       .team-grid { grid-template-columns:1fr 1fr; }
@@ -1113,70 +1083,29 @@
 
 <!-- ===== ABOUT ===== -->
 <section class="about" id="about">
+<section class="about" id="about">
   <div class="container">
     <div class="about-header">
       <span class="section-badge"> Built for trades </span>
       <h2 class="section-title">We grow service<br>companies. Full stop.</h2>
-      <p style="max-width:600px; margin:20px auto 0; color:#b5b5b5; font-size:17px; line-height:1.7; text-align:center;">HVAC, plumbing, electrical, roofing, landscaping &mdash; if you turn wrenches or manage crews, we fill your pipeline with real leads that close.</p>
+      <p class="section-desc" style="max-width:650px; margin:20px auto 0; color:#b5b5b5; font-size:17px; line-height:1.7; text-align:center;">LeadZap is a lead generation and digital marketing agency built exclusively for HVAC, plumbing, electrical, roofing, and landscaping contractors. We don&#039;t do generic marketing. We build pipelines that actually close.</p>
     </div>
-
     <div class="about-grid">
       <div class="about-card">
-        <div class="about-card-icon">&#x1F3ED;</div>
-        <h3>HVAC &amp; Plumbing</h3>
-        <p>Seasonal businesses need year-round pipeline. We time your SEO, ads, and email campaigns around heating, cooling, and plumbing seasons to flatten the slow months.</p>
+        <div class="about-card-icon">&#x1F3AF;</div>
+        <h3>What We Do</h3>
+        <p>LeadZap generates qualified, ready-to-close leads for service contractors. From Google Maps scraping and local service ads to permit tracking and conversion websites — every channel is tuned specifically for trades that need their pipeline full.</p>
       </div>
       <div class="about-card">
-        <div class="about-card-icon">&#x26A1;</div>
-        <h3>Electrical &amp; Roofing</h3>
-        <p>High-ticket service calls require trust before the quote. We build reputation systems with review generation, Google Business Profile optimization, and local citations that position you as the go-to.</p>
-      </div>
-      <div class="about-card">
-        <div class="about-card-icon">&#x1F331;</div>
-        <h3>Landscaping &amp; CleanTech</h3>
-        <p>Visual work needs visual marketing. We build photo-rich service pages, manage your Google Business images, and run geo-targeted ads that show your best work to nearby homeowners.</p>
-      </div>
-      <div class="about-card">
-        <div class="about-card-icon">&#x1F4CA;</div>
-        <h3>Commercial Contractors</h3>
-        <p>Bigger projects, fewer competitors. We track building permits, new business registrations, and commercial RFPs so you can bid before anyone else knows the job exists.</p>
-      </div>
-      <div class="about-card">
-        <div class="about-card-icon">&#x1F4E3;</div>
-        <h3>Multi-Location Brands</h3>
-        <p>Scaling across cities? We build location-specific landing pages, manage dozens of Google Business Profiles, and track leads per territory so you know which market needs more fuel.</p>
+        <div class="about-card-icon">&#x1F4A1;</div>
+        <h3>Who We Serve</h3>
+        <p>HVAC, plumbing, electrical, roofing, landscaping, and commercial contractors. If your business relies on service calls, seasonal cycles, and local reputation — you are exactly who we build for. We know the industry, the margins, and what actually converts.</p>
       </div>
       <div class="about-card">
         <div class="about-card-icon">&#x1F680;</div>
-        <h3>Startups &amp; New Entrants</h3>
-        <p>First year is the hardest. We fast-track your local presence with bundle campaigns: Google Maps rank, review velocity, directory listings, and a lead-generating website in under 30 days.</p>
+        <h3>The LeadZap Difference</h3>
+        <p>No long contracts. No fluff reports. Every campaign has a measurable lead target. Track your cost per lead, calls per day, and revenue attributed to each channel in a dashboard that actually makes sense.</p>
       </div>
-    </div>
-
-    <div class="about-stats">
-      <div class="about-stat">
-        <span class="about-stat-num">2,400+</span>
-        <span class="about-stat-label">Leads generated monthly</span>
-      </div>
-      <div class="about-stat">
-        <span class="about-stat-num">150+</span>
-        <span class="about-stat-label">Service businesses onboarded</span>
-      </div>
-      <div class="about-stat">
-        <span class="about-stat-num">4.8x</span>
-        <span class="about-stat-label">Average ROI in 6 months</span>
-      </div>
-      <div class="about-stat">
-        <span class="about-stat-num">50+</span>
-        <span class="about-stat-label">Verified 5-star reviews across clients</span>
-      </div>
-    </div>
-
-    <div class="about-cta">
-      <a href="/contact-us/" class="nm-pr-btn-1 lime-bg">
-        <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-        Book Your Free Consultation
-      </a>
     </div>
   </div>
 </section><section class="services" id="services">
