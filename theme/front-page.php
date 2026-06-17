@@ -681,6 +681,26 @@
       font-weight:600;
       border:1px solid rgba(255,255,255,0.2);
     }
+    .portfolio-item-overlay {
+      opacity:0;
+      transition:opacity 0.4s ease;
+    }
+    .portfolio-item:hover .portfolio-item-overlay {
+      opacity:1;
+    }
+    .portfolio-overlay-content {
+      flex:1;
+    }
+    .portfolio-overlay-desc {
+      font-size:13px;
+      line-height:1.5;
+      color:#e0e0e0;
+      margin-top:8px;
+      display:none;
+    }
+    .portfolio-item:hover .portfolio-overlay-desc {
+      display:block;
+    }
     .portfolio-item-link {
       width:40px;
       height:40px;
@@ -1263,7 +1283,10 @@
       <div class="portfolio-item">
         <img src="/wp-content/themes/nimo/img/leadzap/port1.jpg" alt="HVAC company case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">HVAC Lead Gen</span>
+          <div class="portfolio-overlay-content">
+            <span class="portfolio-item-tag">HVAC Lead Gen</span>
+            <p class="portfolio-overlay-desc">Precision Air Flow was getting 2-3 calls a day. After our SEO + Google Ads campaign, they hit 9+ calls daily within 3 months. Revenue jumped 180%.</p>
+          </div>
           <a href="/lead-generation/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>Precision Air Flow</strong><span>3x monthly leads in 90 days</span></div>
@@ -1271,7 +1294,10 @@
       <div class="portfolio-item">
         <img src="/wp-content/themes/nimo/img/leadzap/port2.jpg" alt="Roofing company case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">Roofing Local SEO</span>
+          <div class="portfolio-overlay-content">
+            <span class="portfolio-item-tag">Roofing Local SEO</span>
+            <p class="portfolio-overlay-desc">Summit Roofing was buried on page 4 of Google Maps. We rebuilt their GBP, cleaned up citations, and built location pages. They hit #1 in their city in 6 weeks.</p>
+          </div>
           <a href="/local-search-optimization/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>Summit Roofing Co</strong><span>#1 Google Maps rank in 6 weeks</span></div>
@@ -1279,7 +1305,10 @@
       <div class="portfolio-item">
         <img src="/wp-content/themes/nimo/img/leadzap/port3.jpg" alt="Commercial contractor case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">Commercial B2B</span>
+          <div class="portfolio-overlay-content">
+            <span class="portfolio-item-tag">Commercial B2B</span>
+            <p class="portfolio-overlay-desc">West Coast Electric wanted commercial contracts, not residential call-outs. We set up B2B permit tracking and email outreach. They landed 3 commercial deals worth $48k in 60 days.</p>
+          </div>
           <a href="/b2b-commercial-lead-generation/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>West Coast Electric</strong><span>$48k in commercial contracts secured</span></div>
@@ -1287,7 +1316,10 @@
       <div class="portfolio-item">
         <img src="/wp-content/themes/nimo/img/leadzap/port4.jpg" alt="Plumbing company case study">
         <div class="portfolio-item-overlay">
-          <span class="portfolio-item-tag">Plumbing Google Ads</span>
+          <div class="portfolio-overlay-content">
+            <span class="portfolio-item-tag">Plumbing Google Ads</span>
+            <p class="portfolio-overlay-desc">FlowMaster was burning budget on broad keywords. We narrowed to emergency plumbing + service-area targeting, cut CPA by 60%, and hit 12:1 return on every dollar spent.</p>
+          </div>
           <a href="/google-ads-ppc/" class="portfolio-item-link">&#x2197;</a>
         </div>
         <div class="portfolio-meta"><strong>FlowMaster Plumbing</strong><span>12:1 ROAS on ad spend</span></div>
