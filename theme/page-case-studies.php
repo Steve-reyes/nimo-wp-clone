@@ -204,7 +204,7 @@
               <?php if (has_post_thumbnail()) : ?>
                 <?php the_post_thumbnail('medium', ['class' => 'cs-thumb', 'loading' => 'lazy']); ?>
               <?php else : ?>
-                <img src="https://picsum.photos/seed/cs-<?php echo get_the_ID(); ?>/400/260" alt="<?php the_title_attribute(); ?>" class="cs-thumb" loading="lazy">
+                
               <?php endif; ?>
               <div class="cs-card-body">
                 <span class="cs-tag">Client Win</span>
