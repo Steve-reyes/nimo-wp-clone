@@ -857,7 +857,82 @@
       color:#b5b5b5;
     }
 
-    
+    /* ===== FAQ ===== */
+    .faq {
+      padding:100px 0;
+      background:#0d0d0d;
+    }
+    .faq-header { margin-bottom:60px; }
+    .faq-list {
+      max-width:800px;
+      margin:0 auto;
+      display:flex;
+      flex-direction:column;
+      gap:12px;
+    }
+    .faq-item {
+      background:#1a1a1a;
+      border-radius:16px;
+      border:1px solid rgba(255,255,255,0.06);
+      overflow:hidden;
+    }
+    .faq-question {
+      width:100%;
+      text-align:left;
+      padding:22px 28px;
+      font-size:17px;
+      font-weight:600;
+      color:#fff;
+      background:none;
+      border:none;
+      cursor:pointer;
+      display:flex;
+      justify-content:space-between;
+      align-items:center;
+      font-family:'Inter',sans-serif;
+      transition:color 0.3s;
+    }
+    .faq-question:hover { color:#d6f345; }
+    .faq-question .faq-icon {
+      width:32px;
+      height:32px;
+      border-radius:50%;
+      background:#282828;
+      display:flex;
+      align-items:center;
+      justify-content:center;
+      font-size:16px;
+      color:#fff;
+      flex-shrink:0;
+      transition:all 0.3s;
+    }
+    .faq-item.open .faq-question .faq-icon {
+      background:#d6f345;
+      color:#171619;
+      transform:rotate(45deg);
+    }
+    .faq-answer {
+      max-height:0;
+      overflow:hidden;
+      transition:max-height 0.4s ease, padding 0.4s ease;
+      padding:0 28px;
+    }
+    .faq-answer p {
+      padding-bottom:22px;
+      font-size:16px;
+      color:#b5b5b5;
+      line-height:1.7;
+    }
+    .faq-item.open .faq-answer {
+      max-height:300px;
+      padding:0 28px;
+    }
+
+    /* ===== BLOG ===== */
+    .blog {
+      padding:100px 0;
+      background:#111111;
+    }
     .blog-header { margin-bottom:60px; }
     .blog-grid {
       display:grid;
@@ -1043,6 +1118,7 @@
 </section>
 
 <!-- ===== ABOUT ===== -->
+<section class="about" id="about">
 <section class="about" id="about">
   <div class="container">
     <div class="about-header">
@@ -1301,7 +1377,18 @@
   </div>
 </section>
 
-<!-- ===== FOOTER ===== --><!-- ===== FOOTER ===== -->
+<!-- ===== FAQ ===== -->
+<section class="faq" id="faq">
+  <div class="container">
+    <div class="faq-header">
+      <span class="section-badge"> Questions? </span>
+      <h2 class="section-title">Frequently Asked<br>Questions</h2>
+    </div>
+    <div class="faq-list" id="faq-list"></div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
 <footer class="footer">
   <div class="container">
     <div class="footer-top">
@@ -1514,6 +1601,40 @@
         <span>${m.role}</span>
       </div>
     `).join('');
+  })();
+
+  // ===== FAQ =====
+  (function(){
+    const faqs = [
+      { q:'What does LeadZap do for home service businesses?', a:'We handle SEO, lead-gen websites, local search, social media, Google Ads, reputation management, email/SMS, and branding  -  built exclusively for HVAC, plumbing, electrical, roofing, landscaping, and home service companies.' },
+      { q:'How fast will I get more calls?', a:'Most contractors see a spike in calls within 4-8 weeks from local SEO alone. Full SEO results hit in 3-6 months. We send monthly lead reports so you never wonder where your traffic is coming from.' },
+      { q:'How much does a service business website cost?', a:'Our lead-gen sites start at a flat, transparent rate. No hidden fees, no surprise charges. Reach out for a free quote tailored to your market size and service area.' },
+      { q:'Can you handle multi-city service areas?', a:'Yes. We build location-specific pages and citation strategies that dominate every city you service. Whether you are a single truck or a 50-truck fleet, our approach scales with you.' },
+      { q:'How do I start working with LeadZap?', a:'Click "Claim Your Free Call" or reach out through our contact form. We will schedule a free discovery call, learn about your business, and build a marketing plan that fits your goals and budget.' }
+    ];
+
+    const list = document.getElementById('faq-list');
+    list.innerHTML = faqs.map((f, i) => `
+      <div class="faq-item${i===0?' open':''}">
+        <button class="faq-question" data-index="${i}">
+          ${f.q}
+          <span class="faq-icon">+</span>
+        </button>
+        <div class="faq-answer">
+          <p>${f.a}</p>
+        </div>
+      </div>
+    `).join('');
+
+    list.addEventListener('click', e => {
+      const btn = e.target.closest('.faq-question');
+      if(!btn) return;
+      const item = btn.closest('.faq-item');
+      const isOpen = item.classList.contains('open');
+      // close all
+      list.querySelectorAll('.faq-item').forEach(el => el.classList.remove('open'));
+      if(!isOpen) item.classList.add('open');
+    });
   })();
 
   // ===== BLOG =====
