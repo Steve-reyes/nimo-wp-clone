@@ -158,6 +158,8 @@
       transition:opacity 0.3s; display:inline-block;
     }
     .wpcf7-form .cf7-contact-form input[type="submit"]:hover { opacity:0.85; }
+    .wpcf7-form .cf7-contact-form p { margin:0 0 6px 0; }
+    .wpcf7-form .cf7-contact-form br { display:none; }
     .wpcf7 form .wpcf7-response-output { margin:20px 0; padding:16px 20px; border-radius:12px; font-size:15px; }
     .wpcf7 form.invalid .wpcf7-response-output, .wpcf7 form.unaccepted .wpcf7-response-output { border-color:#e74c3c; background:rgba(231,76,60,0.1); color:#e74c3c; }
     .wpcf7 form.sent .wpcf7-response-output { border-color:#27ae60; background:rgba(39,174,96,0.1); color:#27ae60; }
