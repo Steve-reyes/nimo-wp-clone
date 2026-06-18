@@ -1582,9 +1582,9 @@
   // ===== BLOG =====
   (function(){
     const posts = [
-      { title:'6 SEO Hacks Every HVAC Contractor Needs in 2026', excerpt:'Local search is changing fast. Here is what is actually working to keep HVAC companies on page 1  -  and what is not.', date:'June 14, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog1.jpg' },
-      { title:'Stop Building Brochure Websites. Build a Lead Machine Instead.', excerpt:'The difference between a website that sits there and a website that books jobs? These 5 features. Install them and watch your phone ring.', date:'June 7, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog2.jpg' },
-      { title:'The Plumbing SEO Playbook: Own Your Local Market', excerpt:'Google Business Profile optimization, review management, and local keywords  -  the exact playbook plumbing contractors use to dominate their area.', date:'June 1, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog3.jpg' }
+      { title:'How HVAC, Plumbing, and Electrical Contractors Actually Rank on Google', excerpt:'The local SEO strategies that actually work for home service contractors  -  from GBP optimization to citation building and review generation.', date:'June 14, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog1.jpg', url:'/service-business-seo-contractors/' },
+      { title:'Your Website Is Costing You Jobs. Here is How to Fix It.', excerpt:'Is your website booking jobs or just collecting dust? Learn the 5 features every contractor site needs to convert visitors into paying customers.', date:'June 7, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog2.jpg', url:'/lead-generation-website-design-contractors/' },
+      { title:'Local SEO for Plumbers: How to Own Page One in Your City', excerpt:'A complete playbook for plumbing contractors who want to dominate local search, show up in Google Maps, and get more calls.', date:'June 1, 2026', img:'/wp-content/themes/nimo/img/leadzap/blog3.jpg', url:'/local-seo-plumbers-guide/' }
     ];
     document.getElementById('blog-grid').innerHTML = posts.map(p => `
       <div class="blog-card">
@@ -1593,7 +1593,7 @@
           <div class="blog-date">${p.date}</div>
           <h3>${p.title}</h3>
           <p>${p.excerpt}</p>
-          <a href="#" class="card-btn">Read More &#x2192;</a>
+          <a href="${p.url}" class="card-btn">Read More &#x2192;</a>
         </div>
       </div>
     `).join('');
