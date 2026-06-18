@@ -200,11 +200,6 @@
         <div class="cs-grid">
           <?php while ($cs_query->have_posts()) : $cs_query->the_post(); ?>
             <article class="cs-card">
-              <?php if (has_post_thumbnail()) : ?>
-                <?php the_post_thumbnail('medium', ['class' => 'cs-thumb', 'loading' => 'lazy']); ?>
-              <?php else : ?>
-                
-              <?php endif; ?>
               <div class="cs-card-body">
                 <span class="cs-tag">Client Win</span>
                 <div class="cs-date"><?php echo get_the_date('F j, Y'); ?></div>
