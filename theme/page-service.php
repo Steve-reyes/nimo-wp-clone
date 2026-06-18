@@ -185,6 +185,9 @@
     .contact-info-card p { font-size:15px; color:#b5b5b5; line-height:1.7; }
     .contact-info-card a { color:#d6f345; border-bottom:1px solid transparent; transition:border 0.3s; }
     .contact-info-card a:hover { border-bottom-color:#d6f345; }
+    .footer-legal-links { text-align:center; padding-bottom:16px; }
+    .footer-legal-links a { color:#b5b5b5; font-size:14px; margin:0 12px; transition:color 0.3s; }
+    .footer-legal-links a:hover { color:#d6f345; }
     .footer-bottom { text-align:center; font-size:15px; color:#666; }
 
     @media(max-width:991px) {
@@ -286,7 +289,8 @@
           </ul>
         </div>
       </div>
-      <div class="footer-bottom">&copy; <?php echo date('Y'); ?>. All rights reserved by LeadZap</div>
+      <div class="footer-legal-links"><a href="/privacy-policy/">Privacy Policy</a> <a href="/terms-of-service/">Terms of Service</a></div>
+    <div class="footer-bottom">&copy; <?php echo date('Y'); ?>. All rights reserved by LeadZap</div>
     </div>
   </footer>
 
