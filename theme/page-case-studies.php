@@ -27,15 +27,7 @@
     .container { max-width:1320px; margin:0 auto; padding:0 24px; }
     :root { --body-bg:#111111; --text:#b5b5b5; --white:#ffffff; --lime:#d6f345; --dark-btn:#282828; --btn-text:#171619; --hero-bg:#000000; --tag-bg:#323232; --border-rgba:rgba(255,255,255,0.2); }
 
-    .nm-pr-btn-1 { display:inline-flex; align-items:center; gap:14px; background:#282828; color:#e0e0e0; padding:6px 30px 6px 6px; border-radius:100px; font-family:'Inter',sans-serif; font-size:16px; font-weight:600; border:none; cursor:pointer; transition:all 0.3s ease; }
-    .nm-pr-btn-1:hover { background:#333; color:#d6f345; }
-    .nm-pr-btn-1 .wa_magnetic_btn_2_elm { display:inline-flex; align-items:center; justify-content:center; width:42px; height:42px; background:#d6f345; border-radius:50%; color:#171619; font-size:18px; flex-shrink:0; }
-    .nm-pr-btn-1.lime-bg { background:#d6f345; color:#171619; }
-    .nm-pr-btn-1.lime-bg .wa_magnetic_btn_2_elm { background:#171619; color:#d6f345; }
-    .section-badge { font-family:'Inter',sans-serif; font-size:20px; font-weight:600; color:#d6f345; display:inline-block; margin-bottom:16px; }
-    .section-badge::before { content:"{ "; }
-    .section-badge::after { content:" }"; }
-    .section-title { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,5vw,64px); font-weight:700; color:#ffffff; line-height:1.1; letter-spacing:-1.5px; }
+
 
     /* ===== HEADER ===== */
     .header { position:fixed; top:0; left:0; right:0; z-index:1000; background:rgba(17,17,17,0.95); backdrop-filter:blur(20px); border-bottom:1px solid rgba(255,255,255,0.06); padding:18px 0; }
@@ -133,7 +125,6 @@
     .footer { background:#000000; padding:80px 0 30px; }
     .footer-top { text-align:center; margin-bottom:60px; }
     .footer-top h2 { font-family:'Space Grotesk',sans-serif; font-size:clamp(36px,5vw,60px); font-weight:700; color:#ffffff; margin-bottom:24px; }
-    .footer-top .nm-pr-btn-1 { margin:0 auto; }
     .footer-grid { display:grid; grid-template-columns:2fr 1fr 1fr 1fr; gap:40px; padding-bottom:50px; border-bottom:1px solid rgba(255,255,255,0.06); margin-bottom:30px; }
     .footer-col h4 { font-family:'Space Grotesk',sans-serif; font-size:20px; font-weight:700; color:#fff; margin-bottom:20px; }
     .footer-col p { font-size:15px; color:#b5b5b5; line-height:1.7; max-width:320px; }
@@ -237,10 +228,7 @@
     <div class="container">
       <div class="footer-top">
         <h2>Ready to make<br>your phone ring?</h2>
-        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1">
-          <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-          Claim Your Free Call
-        </a>
+        <a href="<?php echo '/contact-us/'; ?>" class="footer-cta-btn">Claim Your Free Call</a>
       </div>
       <div class="footer-grid">
         <div class="footer-col">

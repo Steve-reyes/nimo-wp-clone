@@ -287,7 +287,6 @@
       color:#ffffff;
       margin-bottom:24px;
     }
-    .footer-top .nm-pr-btn-1 { margin:0 auto; }
     .footer-grid {
       display:grid;
       grid-template-columns:2fr 1fr 1fr 1fr;
@@ -416,10 +415,7 @@
     <div class="container">
       <div class="footer-top">
         <h2>Ready to make<br>your phone ring?</h2>
-        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1">
-          <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
-          Claim Your Free Call
-        </a>
+        <a href="<?php echo '/contact-us/'; ?>" class="footer-cta-btn">Claim Your Free Call</a>
       </div>
       <div class="footer-grid">
         <div class="footer-col">
