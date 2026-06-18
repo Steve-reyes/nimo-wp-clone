@@ -351,7 +351,7 @@
             'fallback_cb' => false,
             'depth' => 3,
             'walker' => new Nimo_Walker_Nav_Menu(),
-            'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="'.'/contact-us/'.'">Get in Touch</a></li></ul>',
+            'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="'.'/contact-us/'.'">Contact Us</a></li></ul>',
           ]);
         ?>
       </nav>
