@@ -350,7 +350,7 @@
             'fallback_cb' => false,
             'depth' => 3,
             'walker' => new Nimo_Walker_Nav_Menu(),
-            'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="'.home_url('/#contact').'">Get in Touch</a></li></ul>',
+            'items_wrap' => '<ul>%3$s<li class="nav-cta"><a href="'.'/contact-us/'.'">Get in Touch</a></li></ul>',
           ]);
         ?>
       </nav>
@@ -416,7 +416,7 @@
     <div class="container">
       <div class="footer-top">
         <h2>Ready to make<br>your phone ring?</h2>
-        <a href="<?php echo home_url('/#contact'); ?>" class="nm-pr-btn-1 lime-bg">
+        <a href="<?php echo '/contact-us/'; ?>" class="nm-pr-btn-1 lime-bg">
           <span class="wa_magnetic_btn_2_elm">&#x2197;</span>
           Claim Your Free Call
         </a>
