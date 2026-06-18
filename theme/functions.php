@@ -86,3 +86,10 @@ add_action('after_switch_theme', function () {
     // Assign to primary location
     set_theme_mod('nav_menu_locations', ['primary' => $menu_id]);
 });
+
+
+// Prevent wptexturize from breaking CF7 shortcodes
+add_filter('no_texturize_shortcodes', function($shortcodes) {
+    $shortcodes[] = 'contact-form-7';
+    return $shortcodes;
+});
