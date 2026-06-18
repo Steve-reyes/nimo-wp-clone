@@ -1345,7 +1345,7 @@
     </div>
     <div class="footer-grid">
       <div class="footer-col">
-        <h4>LeadZap</h4>
+        <h4>LeadZap.io</h4>
         <p>We generate qualified leads for HVAC, plumbing, electrical, roofing, and landscaping contractors. Google Maps scraping, permit tracking, SEO, Google Ads, and websites built to convert. Your phone rings. Your business grows. No fluff.</p>
       </div>
       <div class="footer-col">

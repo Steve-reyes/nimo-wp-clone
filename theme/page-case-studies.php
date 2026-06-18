@@ -237,7 +237,7 @@
       </div>
       <div class="footer-grid">
         <div class="footer-col">
-          <h4>LeadZap</h4>
+          <h4>LeadZap.io</h4>
           <p>We help HVAC, plumbing, and electrical contractors get more leads through SEO, Google Ads, and conversion-focused websites. No fluff. Just results.</p>
         </div>
         <div class="footer-col">

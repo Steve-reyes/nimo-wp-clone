@@ -258,7 +258,7 @@
       <?php endif; ?>
       <div class="footer-grid">
         <div class="footer-col">
-          <h4>LeadZap</h4>
+          <h4>LeadZap.io</h4>
           <p>We help HVAC, PLUMBING, ELECTRICAL, and HOME SERVICE COMPANIES grow through smart digital marketing, lead generation, and local SEO strategies that deliver real leads.</p>
         </div>
         <div class="footer-col">
