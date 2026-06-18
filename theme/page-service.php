@@ -271,8 +271,8 @@
           <h4>Features</h4>
           <ul>
             <li><a href="<?php echo home_url('/case-studies/'); ?>">Case Studies</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Testimonials</a></li>
+            <li><a href="/contact-us/">Careers</a></li>
+            <li><a href="/#reviews">Testimonials</a></li>
             <li><a href="/contact-us/">Contact Us</a></li>
           </ul>
         </div>

@@ -249,10 +249,10 @@
         <div class="footer-col">
           <h4>Features</h4>
           <ul>
-            <li><a href="#">Case Studies</a></li>
-            <li><a href="#">Careers</a></li>
-            <li><a href="#">Testimonials</a></li>
-            <li><a href="#">Pricing</a></li>
+            <li><a href="/case-studies/">Case Studies</a></li>
+            <li><a href="/contact-us/">Careers</a></li>
+            <li><a href="/#reviews">Testimonials</a></li>
+            <li><a href="/contact-us/">Pricing</a></li>
           </ul>
         </div>
         <div class="footer-col">
