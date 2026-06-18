@@ -381,8 +381,6 @@
             <article class="blog-card">
               <?php if (has_post_thumbnail()) : ?>
                 <?php the_post_thumbnail('medium', ['class' => 'post-thumbnail', 'loading' => 'lazy']); ?>
-              <?php else : ?>
-                <img src="https://picsum.photos/seed/<?php echo get_the_ID(); ?>/400/260" alt="<?php the_title_attribute(); ?>" class="post-thumbnail" loading="lazy">
               <?php endif; ?>
               <div class="blog-card-body">
                 <div class="blog-date"><?php echo get_the_date('F j, Y'); ?></div>
